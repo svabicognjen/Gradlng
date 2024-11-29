@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="sr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt - GradIng</title>
+    <meta name="description" content="GradIng - Kontaktirajte nas" />
+    <meta name="keywords" content="kontakt, građevinska firma, ponuda" />
+    <meta name="author" content="Ognjen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="canonical" href="https://www.grading.rs/kontakt" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="GradIng - Kontakt" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.grading.rs/kontakt" />
+  </head>
+  <body>
+    <header>
+      <p>GradIng</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">Početna</a></li>
+          <li><a href="o-autoru.html">O Autoru</a></li>
+          <li><a href="projekti.html">Projekti</a></li>
+          <li><a href="galerija.html">Galerija</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="kontakt">
+        <div>
+          <h1>Kontaktirajte Nas</h1>
+          <form>
+            <label for="name">Ime i prezime:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="phone">Telefon:</label>
+            <input type="tel" id="phone" name="phone" required />
+
+            <label for="project-type">Tip projekta:</label>
+            <select id="project-type" name="project-type" required>
+              <option value="">Izaberite tip projekta</option>
+              <option value="residential">Stambeni objekat</option>
+              <option value="commercial">Poslovni objekat</option>
+              <option value="renovation">Renoviranje</option>
+              <option value="industrial">Industrijski objekat</option>
+            </select>
+
+            <label for="message">Poruka:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Pošalji upit</button>
+          </form>
+          <div class="contact-info">
+            <h2>Dodatne Informacije</h2>
+            <a href="https://www.facebook.com/share/1Fwh3FhDgB/?mibextid=LQQJ4d" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/svabic.ognjen?igsh=eTE2bmkwYXB4N2Fh" class="fa fa-instagram"></a>
+            <p>
+              <i class="fa-solid fa-location-dot"></i> Adresa: Bulevar
+              oslobođenja 45, Beograd
+            </p>
+            <p><i class="fa-solid fa-phone"></i> Telefon: +381 11 123 4567</p>
+            <p><i class="fa-solid fa-envelope"></i> Email: info@grading.rs</p>
+            <p>
+              <i class="fa-solid fa-clock"></i> Radno vreme: Pon-Pet 08:00-16:00
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 GradIng. Sva prava zadržana.</p>
+    </footer>
+  </body>
+</html>
